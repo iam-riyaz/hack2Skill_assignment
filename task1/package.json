@@ -5,7 +5,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
- "start": " nodemon src/app.js"
+ "start": " nodemon src "
   },
   "dependencies": {
     "cors": "^2.8.5",
