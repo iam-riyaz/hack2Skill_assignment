@@ -8,7 +8,7 @@ function App() {
   const [data, setData] = useState([])
  
   const getAllData=()=>{
-    axios.get("http://localhost:2001/data").then((res)=>{setData(res.data)})
+    axios.get("https://hack2skill-backend.onrender.com/data").then((res)=>{setData(res.data)})
     console.log(data)
 
   }
